@@ -163,6 +163,130 @@ eye.style.display = "block";
 })
 
 
+let e1 = document.querySelector('.e1');  // Eye
+let c1 = document.querySelector('.c1');  // Image
+let b1 = document.querySelector('.b1');  // close 
+
+e1.addEventListener('click',()=>{
+    c1.style.display='block';    
+    b1.style.display = 'block';
+    e1.style.display='none';
+    
+});
+
+b1.addEventListener('click',()=>{
+    c1.style.display='none';
+    e1.style.display='block';
+    b1.style.display = 'none';
+})
+
+
+// For Second Certificate
+
+let e2 = document.querySelector('.e2');  // Eye
+let c2 = document.querySelector('.c2');  // Image
+let b2 = document.querySelector('.b2');  // close 
+
+e2.addEventListener('click',()=>{
+    c2.style.display='block';    
+    b2.style.display = 'block';
+    e2.style.display='none';
+    
+});
+
+b2.addEventListener('click',()=>{
+    c2.style.display='none';
+    e2.style.display='block';
+    b2.style.display = 'none';
+})
+
+
+// For Third Certificate
+
+let e3 = document.querySelector('.e3');  // Eye
+let c3 = document.querySelector('.c3');  // Image
+let b3 = document.querySelector('.b3');  // close 
+
+e3.addEventListener('click',()=>{
+    c3.style.display='block';    
+    b3.style.display = 'block';
+    e3.style.display='none';
+    
+});
+
+b3.addEventListener('click',()=>{
+    c3.style.display='none';
+    e3.style.display='block';
+    b3.style.display = 'none';
+})
+
+
+// for Forth certificate
+
+
+let e4 = document.querySelector('.e4');  // Eye
+let c4 = document.querySelector('.c4');  // Image
+let b4 = document.querySelector('.b4');  // close 
+
+e4.addEventListener('click',()=>{
+    c4.style.display='block';    
+    b4.style.display = 'block';
+    e4.style.display='none';
+    
+});
+
+b4.addEventListener('click',()=>{
+    c4.style.display='none';
+    e4.style.display='block';
+    b4.style.display = 'none';
+})
+
+
+// for fifth certificate
+
+let e5 = document.querySelector('.e5');  // Eye
+let c5 = document.querySelector('.c5');  // Image
+let b5 = document.querySelector('.b5');  // close 
+
+e5.addEventListener('click',()=>{
+    c5.style.display='block';    
+    b5.style.display = 'block';
+    e5.style.display='none';
+    
+});
+
+b5.addEventListener('click',()=>{
+    c5.style.display='none';
+    e5.style.display='block';
+    b5.style.display = 'none';
+})
+
+// for sixth certificate
+
+
+let e6 = document.querySelector('.e6');  // Eye
+let c6 = document.querySelector('.c6');  // Image
+let b6 = document.querySelector('.b6');  // close 
+
+e6.addEventListener('click',()=>{
+    c6.style.display='block';    
+    b6.style.display = 'block';
+    e6.style.display='none';
+    
+});
+
+b6.addEventListener('click',()=>{
+    c6.style.display='none';
+    e6.style.display='block';
+    b6.style.display = 'none';
+})
+
+
+
+
+
+
+
 
 
 
